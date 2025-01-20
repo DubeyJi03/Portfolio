@@ -55,15 +55,4 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Your message has been sent! Thank you.');
         form.reset();
     });
-
-    // Project Modal Viewer
-    const viewButtons = document.querySelectorAll('.view-project');
-    viewButtons.forEach(button => {
-        button.addEventListener('click', event => {
-            event.preventDefault();
-            const projectId = button.dataset.project;
-            alert(`You clicked on Project ${projectId}`);
-            // Add modal logic here
-        });
-    });
 });
