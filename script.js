@@ -55,7 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Your message has been sent! Thank you.');
         form.reset();
     });
+<<<<<<< HEAD
 
     // Project Modal Viewer
 
+=======
+>>>>>>> dcf4d1f400a61d4a656419756cb894d9bc104dd7
 });
